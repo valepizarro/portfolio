@@ -1,0 +1,313 @@
+@font-face {
+    src: url("../fonts/CenturyGothic.ttc");
+    font-family: 'CenturyGothic';
+}
+
+@font-face {
+    src: url("../fonts/Youthome.ttf");
+    font-family: 'Youthhome';
+}
+
+@font-face {
+   src: url("../fonts/Avenir-Book-01.ttf");
+   font-family: 'AvenirBook';
+}
+
+@font-face {
+    src: url("../fonts/Avenir-Medium-09.ttf");
+    font-family: 'AvenirMedium';
+}
+
+@font-face {
+    src: url("../fonts/Avenir-Light-07.ttf");
+    font-family: 'AvenirLight';
+}
+
+
+* {
+    box-sizing: border-box;
+}
+header {
+    height: 85vh;
+}
+
+#hello {
+    margin: 5% 10% 0 10%;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'CenturyGothic';
+    font-weight: lighter;
+}
+
+h1 {
+    margin: 0% 0% 0% 10%;
+    text-align: left;
+    font-size: 150px;
+    font-family: 'Youthhome';
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 162, 162);
+}
+
+.about-me {
+    margin: 0% 40% 0% 10%;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'AvenirLight';
+    font-weight: lighter;
+}
+
+img {
+    object-fit: cover;
+}
+
+#profile-img {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 33%;
+
+}
+
+.myportfolio {
+    margin: 3% 10% 5% 10%;
+    padding: 0%;
+    text-align: left;
+    font-size: 55px;
+    font-family: 'CenturyGothic';
+    font-weight: lighter;
+    color: black;
+}
+
+.cuadrado{
+    padding:25px;
+    margin:5% 35% 0% 0 ;
+    background-color: rgb(255, 162, 162);
+    opacity: 40%;
+    }
+
+#contact {
+    margin: 3% 10% 3% 10%;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'AvenirMedium';
+    font-weight: bold;
+}
+.principal {
+    margin: 0 auto;
+    background-color: rgba(135, 190, 207, .5);
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cuadrado1 {
+    width:70%;
+    }
+
+.imagen{ width:40%; box-sizing: border-box;}
+
+.imagen img{ width:50%; margin-top:93px; margin-left:8%;}
+
+.titulo {
+    color: black;
+    padding: 100px 0 10px 0px;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'CenturyGothic';
+    font-weight: lighter;
+    
+}
+
+.texto {
+    color: black;
+    padding: 10px 0 10px 0px;
+    margin: 2% 10% 0% 10%;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'AvenirLight';
+    font-weight: lighter;
+    
+}
+
+#downyou {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    padding: 7px 0 10px 0px;
+    margin: 3% 10% 0% 10%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: rgb(135, 190,207);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'AvenirMedium';
+    cursor: pointer;
+}
+
+.segunda {
+    margin: 0 auto; 
+    margin-top: 5%;
+    background-color: rgba(151, 197, 123, .5);
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between center;
+}
+.cuadrado2 {
+    width:70%;
+    }
+
+.imagen{ width:40%; box-sizing: border-box;}
+
+.imagen2 img{ width:85%; margin-top:63px; }
+
+.titulo2 {
+    color: black;
+    padding: 100px 0 10px 0;
+    margin: 2% 10% 0% 0%;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'CenturyGothic';
+    font-weight: lighter;
+    
+}
+
+
+.texto2 {
+    color: black;
+    padding: 10px 0 10px 0px;
+    margin: 2% 10% 0% 0%;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'AvenirLight';
+    font-weight: lighter;
+    
+}
+
+#freshandlocal {
+    display: flex;
+    align-items: center;
+
+}
+
+.button2 {
+    color: rgb(151, 197, 123);
+    padding: 7px 0 10px 0px;
+    margin: 3% 10% 0% 0%;
+}
+   
+
+
+.tercera {
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: rgba(212, 125, 131, .5);
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cuadrado3 {
+    width:70%;
+    
+   
+    }
+
+.imagen{ width:40%; box-sizing: border-box;}
+
+.imagen3 img{ width:64%; margin-top: 36px; }
+
+.titulo3 {
+    color: black;
+    padding: 100px 0 10px 0px;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'CenturyGothic';
+    font-weight: lighter;
+    
+}
+
+.texto3 {
+    color: black;
+    padding: 10px 0 8px 0px;
+    margin: 2% 10% 0% 10%;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'AvenirLight';
+    font-weight: lighter;
+    
+}
+
+#opentable {
+    display: flex;
+    align-items: center;
+}
+
+.button3 {
+    color: rgb(212, 125, 131);
+    padding: 7px 0 10px 0px;
+    margin: 3% 4% 0% 10%;
+}
+
+footer {
+    height: 36vh;
+    margin: auto 0;
+    margin-top: 5%;
+    background-color: rgb(234, 234, 234);
+}
+.titulofoot {
+    color: black;
+    margin: 0 auto;
+    padding-top: 55px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'CenturyGothic';
+    font-weight: lighter;
+}
+
+.free {
+    color: black;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'AvenirLight';
+    font-weight: lighter;
+}
+
+.email{
+    color: rgb(255, 162, 162);
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'AvenirLight';
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+
+#iconos {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    
+}
+
